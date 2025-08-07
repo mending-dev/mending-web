@@ -1,0 +1,7 @@
+export default function Page() {
+    return (
+        <main className="h-dvh w-full px-5 md:px-25 xl:px-50 2xl:px-75 py-8 flex flex-col justify-center items-center gap-6">
+            <h1>Products</h1>
+        </main>
+    )
+}
