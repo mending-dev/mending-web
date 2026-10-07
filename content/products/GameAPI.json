@@ -1,0 +1,21 @@
+{
+  "title": "GameAPI",
+  "shortDescription": "Create round-based minigames with less code.",
+  "categories": ["libraries"],
+  "price": 0,
+  "currency": "USD",
+  "featured": false,
+  "images": [
+    { "src": "/images/products/GameAPI/1.png", "alt": "GameAPI preview" }
+  ],
+  "sources": [
+    { "name": "GitHub", "url": "https://github.com/mending-dev/GameAPI/releases/latest" }
+  ],
+  "dependencies": [],
+  "minecraftVersions": ["1.21", "26.1", "26.2", "26.3"],
+  "serverSoftware": ["Paper"],
+  "tags": ["minigame", "utility"],
+  "version": "1.0.0-SNAPSHOT",
+  "sourceCode": "https://github.com/mending-dev/GameAPI",
+  "documentation": "https://mending-dev.gitbook.io/docs"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Worlds",
+  "shortDescription": "Manage multiple worlds on your server.",
+  "categories": ["plugins"],
+  "price": 0,
+  "currency": "USD",
+  "featured": false,
+  "images": [
+    { "src": "/images/products/Worlds/1.png", "alt": "Example Plugin preview" }
+  ],
+  "sources": [
+    { "name": "GitHub", "url": "https://github.com/mending-dev/Worlds/releases/latest" }
+  ],
+  "dependencies": [
+    { "name": "MendingCore", "url": "/products/MendingCore" }
+  ],
+  "minecraftVersions": ["1.20", "1.21", "26.1", "26.2", "26.3"],
+  "serverSoftware": ["Paper"],
+  "tags": ["admin", "management", "utility"],
+  "version": "1.0.0"
+}

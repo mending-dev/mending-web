@@ -1,0 +1,19 @@
+{
+  "title": "MendingCore",
+  "shortDescription": "Feature-rich library to write plugins faster.",
+  "categories": ["libraries"],
+  "price": 0,
+  "currency": "USD",
+  "featured": true,
+  "images": [
+    { "src": "/images/products/MendingCore/1.png", "alt": "MendingCore preview" }
+  ],
+  "sources": [
+    { "name": "GitHub", "url": "https://github.com/mending-dev/MendingCore/releases/latest" }
+  ],
+  "dependencies": [],
+  "minecraftVersions": ["1.20", "1.21", "26.1", "26.2", "26.3"],
+  "serverSoftware": ["Paper", "Velocity"],
+  "tags": ["utility"],
+  "version": "1.0.0-SNAPSHOT"
+}

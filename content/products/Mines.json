@@ -1,0 +1,24 @@
+{
+  "title": "Mines",
+  "shortDescription": "Fast and flexible automatic mine creations.",
+  "categories": ["plugins"],
+  "price": 0,
+  "currency": "USD",
+  "featured": false,
+  "images": [
+    { "src": "/images/products/Mines/1.png", "alt": "Example Plugin preview" }
+  ],
+  "sources": [
+    { "name": "GitHub", "url": "https://github.com/mending-dev/Mines/releases/latest" }
+  ],
+  "dependencies": [
+    { "name": "MendingCore", "url": "/products/MendingCore" }
+  ],
+  "compatibleWith": [
+    {"name": "PlaceholderAPI", "url": "https://modrinth.com/plugin/placeholderapi"}
+  ],
+  "minecraftVersions": ["1.20", "1.21"],
+  "serverSoftware": ["Paper"],
+  "tags": ["prison", "skymines", "boxpvp", "survival"],
+  "version": "1.0.0-SNAPSHOT"
+}

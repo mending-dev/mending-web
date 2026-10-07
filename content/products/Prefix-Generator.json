@@ -1,0 +1,18 @@
+{
+  "title": "Prefix Generator",
+  "shortDescription": "Create Rank Tags using an intuitive GUI.",
+  "categories": ["tools"],
+  "price": 5.99,
+  "currency": "USD",
+  "featured": true,
+  "images": [
+    { "src": "/images/products/Prefix-Generator/1.png", "alt": "Example Plugin preview" }
+  ],
+  "sources": [],
+  "dependencies": [],
+  "minecraftVersions": ["1.20", "1.21", "26.1", "26.2", "26.3"],
+  "serverSoftware": ["Spigot", "Paper"],
+  "tags": ["admin", "utility", "standalone"],
+  "version": "1.0.0",
+  "status": "coming-soon"
+}

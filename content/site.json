@@ -1,0 +1,106 @@
+{
+  "url": "https://mending.dev",
+  "ogImage": "/images/og.png",
+  "name": "mending.dev",
+  "slogan": "High-Quality Paper & Velocity Plugins for modern Minecraft Servers.",
+  "description": "Modern plugins, tools and websites that make building Minecraft servers easier.",
+  "logo": { "src": "/images/logo.svg", "alt": "mending.dev logo" },
+  "links": {
+    "github": "https://github.com/mending-dev",
+    "discord": "https://discord.gg/4zg4DQ5G5V",
+    "kofi": "https://ko-fi.com/MrMending"
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Products", "href": "/products" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "hero": {
+    "titlePrefix": "High-Quality",
+    "titleHighlight": "Paper & Velocity",
+    "titleSuffix": "Plugins for Minecraft.",
+    "text": "Modern, well-crafted plugins and tools that make creating and running Minecraft servers simple.",
+    "primaryButton": { "label": "Products", "href": "/products" },
+    "secondaryButton": { "label": "About", "href": "/#about" },
+    "terminal": {
+      "title": "root@mending.dev: ~",
+      "prompt": "root@mending.dev:~$",
+      "plugins": [
+        { "name": "MendingCore", "version": "1.0.0" },
+        { "name": "GameAPI", "version": "1.0.0" },
+        { "name": "Worlds", "version": "1.0.0" },
+        { "name": "Mines", "version": "1.0.0" }
+      ]
+    }
+  },
+  "about": {
+    "title": "About",
+    "text": "I’m a software developer from Germany with several years of experience building software for different purposes. I enjoy creating full-stack applications as well as Minecraft plugins, always focusing on clean, reliable, and efficient solutions.",
+    "image": { "src": "/images/about.png", "alt": "About image" },
+    "techStackTitle": "Tech Stack",
+    "techStack": [
+      { "title": "Java Ecosystem", "description": "High-performance server-side applications and plugins with a clean, maintainable codebase.", "icon": "coffee" },
+      { "title": "Paper & Velocity API", "description": "Built for the latest server and proxy APIs. Paper Forks like PurpurMC are also supported.", "icon": "code" },
+      { "title": "Databases", "description": "All plugins support MySQL and MongoDB, so they fit into any server architecture.", "icon": "database" },
+      { "title": "Modern Web Technologies", "description": "Using React / Next.js for fast and next-gen fullstack apps.", "icon": "globe" },
+      { "title": "Clean and beautiful design", "description": "Tailwind CSS and RadixUI (shadcn) for modern and consistent UI/UX.", "icon": "palette" },
+      { "title": "Open Source", "description": "All free plugins are open source. Paid plugins ship with their source code.", "icon": "git-branch" }
+    ]
+  },
+  "community": {
+    "title": "Join the Community",
+    "text": "Get support for all products and never miss an update.",
+    "features": ["Support for all products", "Update announcements", "Direct contact"],
+    "buttonLabel": "Join Discord"
+  },
+  "productsPage": {
+    "title": "Products",
+    "text": "Plugins, tools and setups for modern Minecraft servers.",
+    "searchPlaceholder": "Search by name, description or tag...",
+    "statusLabels": {
+      "maintenance": "Currently not available",
+      "coming-soon": "Coming Soon"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Have a project or a question? Send me a message and I'll get back to you.",
+    "discordTitle": "Prefer Discord?",
+    "discordNote": "You can also reach me directly on Discord. It's usually the fastest way to get a response.",
+    "discordButtonLabel": "Open Discord",
+    "projectTypes": ["Custom Plugin", "Website", "Admin Tool", "Server Setup", "Other"],
+    "form": {
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "typeLabel": "What do you need?",
+      "typePlaceholder": "Select a project type",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project or question...",
+      "submitLabel": "Send message",
+      "successMessage": "Message sent! I'll get back to you soon.",
+      "errorMessage": "Something went wrong. Please try again or contact me on Discord."
+    }
+  },
+  "footer": {
+    "text": "High-Quality Paper & Velocity Plugins for modern Minecraft Servers.",
+    "columns": [
+      {
+        "title": "Navigation",
+        "links": [
+          { "label": "Home", "href": "/" },
+          { "label": "Products", "href": "/products" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "BuiltByBit", "href": "https://builtbybit.com/members/634387" },
+          { "label": "Hangar", "href": "https://hangar.papermc.io/MrMending" },
+          { "label": "voxel.shop", "href": "https://voxel.shop/user/31649" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 mending.dev — All rights reserved."
+  }
+}
