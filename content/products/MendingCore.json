@@ -6,7 +6,7 @@
   "currency": "USD",
   "featured": true,
   "images": [
-    { "src": "/images/products/MendingCore/1.png", "alt": "MendingCore preview" }
+    { "src": "/images/products/MendingCore/1.png", "alt": "1" }
   ],
   "sources": [
     { "name": "GitHub", "url": "https://github.com/mending-dev/MendingCore/releases/latest" }

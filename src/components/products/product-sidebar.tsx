@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, Code2, ExternalLink } from "lucide-react";
+import { ArrowRight, BookOpen, Code2, ExternalLink, MonitorPlay } from "lucide-react";
 import { Badge, badgeVariants } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -105,7 +105,7 @@ function LinkBlock({
 }
 
 export function ProductSidebar({ product }: { product: Product }) {
-    const hasLinks = product.sourceCode || product.documentation;
+    const hasLinks = product.liveDemo || product.sourceCode || product.documentation;
 
     return (
         <aside className="lg:sticky lg:top-24 lg:self-start">
@@ -129,11 +129,11 @@ export function ProductSidebar({ product }: { product: Product }) {
 
                     {hasLinks && (
                         <div className="grid gap-2">
-                            {product.sourceCode && (
+                            {product.liveDemo && (
                                 <Button variant="outline" asChild>
-                                    <a href={product.sourceCode} target="_blank" rel="noreferrer">
-                                        <Code2 className="size-4" />
-                                        Source Code
+                                    <a href={product.liveDemo} target="_blank" rel="noreferrer">
+                                        <MonitorPlay className="size-4" />
+                                        Live Demo
                                     </a>
                                 </Button>
                             )}
@@ -142,6 +142,14 @@ export function ProductSidebar({ product }: { product: Product }) {
                                     <a href={product.documentation} target="_blank" rel="noreferrer">
                                         <BookOpen className="size-4" />
                                         Documentation
+                                    </a>
+                                </Button>
+                            )}
+                            {product.sourceCode && (
+                                <Button variant="outline" asChild>
+                                    <a href={product.sourceCode} target="_blank" rel="noreferrer">
+                                        <Code2 className="size-4" />
+                                        Source Code
                                     </a>
                                 </Button>
                             )}

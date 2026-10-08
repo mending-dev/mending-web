@@ -3,6 +3,7 @@ import path from "node:path";
 import { cache } from "react";
 import { productSchema } from "./product-schema";
 import type { Product, SiteConfig } from "./types";
+import { compareVersions } from "./format";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const PUBLIC_DIR = path.join(process.cwd(), "public");
@@ -44,7 +45,12 @@ function loadProduct(file: string): Product {
         }
     }
 
-    return { slug, ...result.data };
+    return {
+        slug,
+        ...result.data,
+        // Newest Minecraft version first
+        minecraftVersions: [...result.data.minecraftVersions].sort((a, b) => compareVersions(b, a)),
+    };
 }
 
 // Load all products (one .json file per product)

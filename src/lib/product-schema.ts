@@ -45,8 +45,9 @@ export const productSchema = z.strictObject({
     serverSoftware: z.array(z.string().min(1)).min(1),
     tags: z.array(z.string().min(1)).default([]),
     version: z.string().optional(),
-    sourceCode: url.optional(),
+    liveDemo: url.optional(),
     documentation: url.optional(),
+    sourceCode: url.optional(),
     descriptionFile: z.string().regex(/^[\w.-]+\.md$/).optional(),
 }).refine((product) => product.status !== "available" || product.sources.length > 0, {
     path: ["sources"],

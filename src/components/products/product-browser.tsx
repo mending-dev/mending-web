@@ -21,6 +21,7 @@ import {
 import { ProductCard } from "./product-card";
 import { Reveal } from "@/components/reveal";
 import { ProductSearch } from "./product-search";
+import { compareVersions } from "@/lib/format";
 
 const ALL = "all";
 
@@ -42,9 +43,7 @@ export function ProductBrowser({ products, searchPlaceholder, statusLabels }: Pr
     // Filter options are derived from the product JSONs
     const versions = useMemo(
         () =>
-            unique(products.flatMap((p) => p.minecraftVersions)).sort((a, b) =>
-                b.localeCompare(a, undefined, { numeric: true })
-            ),
+            unique(products.flatMap((p) => p.minecraftVersions)).sort((a, b) => compareVersions(b, a)),
         [products]
     );
     const softwareOptions = useMemo(

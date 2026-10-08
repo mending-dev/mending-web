@@ -11,7 +11,7 @@ export type SiteConfig = {
     slogan: string;
     description: string;
     logo: ImageRef;
-    links: { github: string; discord: string; kofi: string };
+    links: { github: string; discord: string; docs: string, kofi: string; };
     nav: NavItem[];
     hero: {
         titlePrefix: string;
@@ -105,8 +105,9 @@ export type Product = {
     tags: string[];
     version?: string;
     descriptionFile?: string; // defaults to <slug>.md
-    sourceCode?: string;
+    liveDemo?: string;
     documentation?: string;
+    sourceCode?: string;
     status: ProductStatus;
 };
 

@@ -8,6 +8,7 @@
   "links": {
     "github": "https://github.com/mending-dev",
     "discord": "https://discord.gg/4zg4DQ5G5V",
+    "docs": "https://docs.mending.dev",
     "kofi": "https://ko-fi.com/MrMending"
   },
   "nav": [
@@ -96,6 +97,7 @@
         "title": "Resources",
         "links": [
           { "label": "Modrinth", "href": "https://modrinth.com/user/MrMending" },
+          { "label": "SpigotMC", "href": "https://www.spigotmc.org/members/2356138" },
           { "label": "Hangar", "href": "https://hangar.papermc.io/MrMending" },
           { "label": "BuiltByBit", "href": "https://builtbybit.com/members/634387" },
           { "label": "voxel.shop", "href": "https://voxel.shop/user/31649" }

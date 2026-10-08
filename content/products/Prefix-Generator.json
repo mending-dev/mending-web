@@ -6,7 +6,7 @@
   "currency": "USD",
   "featured": true,
   "images": [
-    { "src": "/images/products/Prefix-Generator/1.png", "alt": "Example Plugin preview" }
+    { "src": "/images/products/Prefix-Generator/1.png", "alt": "1" }
   ],
   "sources": [],
   "dependencies": [],

@@ -1,0 +1,29 @@
+{
+  "title": "Simplex",
+  "shortDescription": "Landing Page Template for your server.",
+  "categories": ["web"],
+  "price": 0,
+  "currency": "USD",
+  "featured": true,
+  "images": [
+    { "src": "/images/products/Simplex/1.png", "alt": "1" },
+    { "src": "/images/products/Simplex/2.png", "alt": "2" },
+    { "src": "/images/products/Simplex/3.png", "alt": "3" },
+    { "src": "/images/products/Simplex/4.png", "alt": "4" },
+    { "src": "/images/products/Simplex/5.png", "alt": "5" }
+  ],
+  "sources": [
+    {"name": "GitHub", "url": "https://github.com/mending-dev/simplex-web/releases/latest"}
+  ],
+  "dependencies": [
+    {"name": "NodeJS", "url": "https://nodejs.org"}
+  ],
+  "minecraftVersions": ["1.7","1.8","1.9","1.10","1.11","1.12","1.13","1.14","1.15","1.16","1.17","1.18","1.19","1.20","1.21","26.1","26.2","26.3"],
+  "serverSoftware": ["Spigot", "Paper", "Bungeecord", "Velocity"],
+  "tags": ["template", "branding", "standalone"],
+  "version": "1.0.0",
+  "status": "available",
+  "liveDemo": "https://simplex-web-demo.vercel.app",
+  "sourceCode": "https://github.com/mending-dev/simplex-web",
+  "documentation": "https://mending-dev.gitbook.io/docs/simplex"
+}

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { DiscordIcon, GithubIcon, KofiIcon } from "@/components/icons";
 import { getSiteConfig } from "@/lib/content";
+import { BookOpen } from "lucide-react";
 
 export function SiteFooter() {
     const site = getSiteConfig();
@@ -28,6 +29,11 @@ export function SiteFooter() {
                             <Button variant="outline" size="icon" asChild>
                                 <a href={site.links.discord} target="_blank" rel="noreferrer" aria-label="Discord">
                                     <DiscordIcon className="size-4" />
+                                </a>
+                            </Button>
+                            <Button variant="outline" size="icon" asChild>
+                                <a href={site.links.docs} target="_blank" rel="noreferrer" aria-label="Documentation">
+                                    <BookOpen className="size-4" />
                                 </a>
                             </Button>
                             <Button variant="outline" size="icon" asChild>
