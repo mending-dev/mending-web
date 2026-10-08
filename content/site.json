@@ -95,8 +95,9 @@
       {
         "title": "Resources",
         "links": [
-          { "label": "BuiltByBit", "href": "https://builtbybit.com/members/634387" },
+          { "label": "Modrinth", "href": "https://modrinth.com/user/MrMending" },
           { "label": "Hangar", "href": "https://hangar.papermc.io/MrMending" },
+          { "label": "BuiltByBit", "href": "https://builtbybit.com/members/634387" },
           { "label": "voxel.shop", "href": "https://voxel.shop/user/31649" }
         ]
       }
